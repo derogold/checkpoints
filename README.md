@@ -22,7 +22,7 @@
 #### Linux, Apple
 
 - First, open a command prompt in the same directory as DeroGoldd.
-- You can use the `cd` command to change to this directory. For example, `cd Downloads/DeroGold-v0.5.0`
+- You can use the `cd` command to change to this directory. For example, `cd Downloads/DeroGold-v0.1.1`
 - Alternatively, your file manager may provide the ability to open a terminal in your current directory. Navigate to the folder with DeroGoldd in, and try right clicking, to see if you can open a terminal there:
 
 ![Opening terminal](https://i.imgur.com/Rd5TmQc.png)
@@ -34,10 +34,10 @@
 If you did the steps correctly, you should see something like this output.
 
 ```
-2018-May-13 11:58:39.654478 INFO    Welcome to DeroGold v0.5.0.1260 ()
+2018-May-13 11:58:39.654478 INFO    Welcome to DeroGold v0.1.1 ()
 2018-May-13 11:58:39.654914 INFO    Module folder: DeroGoldd
 2018-May-13 11:58:39.655249 INFO    Loading Checkpoints for faster initial sync...
-2018-May-13 11:58:40.854979 INFO    Loaded 435695 checkpoints from checkpoints.csv
+2018-May-13 11:58:40.854979 INFO    Loaded 1235695 checkpoints from checkpoints.csv
 ```
 
 - DeroGoldd will then start syncing from checkpoints.
@@ -95,7 +95,7 @@ operable program or batch file.
 - If you type `ls`, you should see the DeroGoldd program, if you are in the correct folder:
 
 ```
-[DeroGold-v0.0.4] ls
+[DeroGold-v0.1.1] ls
 cryptotest  DeroGoldd  DeroGold-service  Dockerfile  miner  morpheus.wallet  wallet-api  zedwallet  zedwallet-beta
 ```
 
