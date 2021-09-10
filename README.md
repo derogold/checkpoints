@@ -10,6 +10,8 @@
 - You can get DeroGoldd from here if you don't have it already: https://github.com/derogold/derogold/releases/latest
 - Make sure you shut down any GUI wallets, wallet-api endpoints, or any other instances of DeroGoldd you may run before daemon resync..
 
+Alternatively, download the individual files checkpoints.csv-000, checkpoints.csv-001 ... checkpoints.csv-00n and then in the same directory where you downloaded the files do the ```cat checkpoints.csv-000 checkpoints.csv-001 checkpoints.csv-002 > checkpoints.csv``` command to join the files into a single checkpoints.csv file.
+
 ### Usage
 
 #### Windows
