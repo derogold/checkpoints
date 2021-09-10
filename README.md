@@ -4,10 +4,11 @@
 
 ### Setup
 
-- Right click [this link](https://github.com/derogold/checkpoints/raw/master/checkpoints.csv) and choose `Save link as...` to download the latest checkpoints.csv.
+- Right click [this link](https://github.com/derogold/checkpoints/raw/master/checkpoints.csv.7z) and choose `Save link as...` to download the latest checkpoints.csv.7z file
+- Unpack the checkpoints.csv file from the .7z archive
 - Place checkpoints.csv in the same folder as your DeroGoldd daemon
 - You can get DeroGoldd from here if you don't have it already: https://github.com/derogold/derogold/releases/latest
-- Make sure you shut down any GUI wallets, or any other instances of DeroGoldd.
+- Make sure you shut down any GUI wallets, wallet-api endpoints, or any other instances of DeroGoldd you may run before daemon resync..
 
 ### Usage
 
@@ -22,7 +23,7 @@
 #### Linux, Apple
 
 - First, open a command prompt in the same directory as DeroGoldd.
-- You can use the `cd` command to change to this directory. For example, `cd Downloads/DeroGold-v0.1.1`
+- You can use the `cd` command to change to this directory. For example, `cd Downloads/DeroGold-v0.6.0`
 - Alternatively, your file manager may provide the ability to open a terminal in your current directory. Navigate to the folder with DeroGoldd in, and try right clicking, to see if you can open a terminal there:
 
 ![Opening terminal](https://i.imgur.com/Rd5TmQc.png)
@@ -34,15 +35,14 @@
 If you did the steps correctly, you should see something like this output.
 
 ```
-2018-May-13 11:58:39.654478 INFO    Welcome to DeroGold v0.1.1 ()
+2018-May-13 11:58:39.654478 INFO    Welcome to DeroGold v0.6.0 ()
 2018-May-13 11:58:39.654914 INFO    Module folder: DeroGoldd
 2018-May-13 11:58:39.655249 INFO    Loading Checkpoints for faster initial sync...
 2018-May-13 11:58:40.854979 INFO    Loaded 1235695 checkpoints from checkpoints.csv
 ```
 
 - DeroGoldd will then start syncing from checkpoints.
-- If you are using the CLI wallet, then you can just wait for it to finish syncing, and open your wallet.
-- If you are using a GUI wallet, let it finish syncing, close it down by typing `exit` in the window, then open your GUI wallet.
+- Checkpoints file is for syncing the node / daemon, not your wallet.
 
 ### Common Errors
 
