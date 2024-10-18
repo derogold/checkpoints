@@ -9,7 +9,7 @@
 - You can get DeroGoldd from here if you don't have it already: https://github.com/derogold/derogold/releases/latest
 - Make sure you shut down any GUI wallets, wallet-api endpoints, or any other instances of DeroGoldd you may run before daemon resync..
 
-Alternatively, ```wget https://ipfs.io/ipfs/Qme8epCxomuZrgyJVqCbqRf5TgCbjkWUUpYca8EBCexHJz/checkpoints.csv``` from your command line to download the checkpoints.csv file.
+Alternatively, use the wget command from your Linux command line ```wget https://ipfs.io/ipfs/Qme8epCxomuZrgyJVqCbqRf5TgCbjkWUUpYca8EBCexHJz/checkpoints.csv``` to download the checkpoints.csv file.
 
 ### Usage
 
