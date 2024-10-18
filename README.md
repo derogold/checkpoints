@@ -4,13 +4,12 @@
 
 ### Setup
 
-- Right click [this link](https://github.com/derogold/checkpoints/raw/master/checkpoints.csv.7z) and choose `Save link as...` to download the latest checkpoints.csv.7z file
-- Unpack the checkpoints.csv file from the .7z archive
+- Right click [this link](https://ipfs.io/ipfs/Qme8epCxomuZrgyJVqCbqRf5TgCbjkWUUpYca8EBCexHJz/checkpoints.csv) and choose `Save link as...` to download the latest checkpoints.csv file
 - Place checkpoints.csv in the same folder as your DeroGoldd daemon
 - You can get DeroGoldd from here if you don't have it already: https://github.com/derogold/derogold/releases/latest
 - Make sure you shut down any GUI wallets, wallet-api endpoints, or any other instances of DeroGoldd you may run before daemon resync..
 
-Alternatively, download the individual files checkpoints.csv-000, checkpoints.csv-001 ... checkpoints.csv-00n and then in the same directory where you downloaded the files do the ```cat checkpoints.csv-000 checkpoints.csv-001 checkpoints.csv-002 > checkpoints.csv``` command to join the files into a single checkpoints.csv file.
+Alternatively, ```wget https://ipfs.io/ipfs/Qme8epCxomuZrgyJVqCbqRf5TgCbjkWUUpYca8EBCexHJz/checkpoints.csv``` from your command line to download the checkpoints.csv file.
 
 ### Usage
 
@@ -25,7 +24,7 @@ Alternatively, download the individual files checkpoints.csv-000, checkpoints.cs
 #### Linux, Apple
 
 - First, open a command prompt in the same directory as DeroGoldd.
-- You can use the `cd` command to change to this directory. For example, `cd Downloads/DeroGold-v0.6.0`
+- You can use the `cd` command to change to this directory. For example, `cd DeroGold`
 - Alternatively, your file manager may provide the ability to open a terminal in your current directory. Navigate to the folder with DeroGoldd in, and try right clicking, to see if you can open a terminal there:
 
 ![Opening terminal](https://i.imgur.com/Rd5TmQc.png)
@@ -37,7 +36,7 @@ Alternatively, download the individual files checkpoints.csv-000, checkpoints.cs
 If you did the steps correctly, you should see something like this output.
 
 ```
-2018-May-13 11:58:39.654478 INFO    Welcome to DeroGold v0.6.0 ()
+2018-May-13 11:58:39.654478 INFO    Welcome to DeroGold v0.7.1 ()
 2018-May-13 11:58:39.654914 INFO    Module folder: DeroGoldd
 2018-May-13 11:58:39.655249 INFO    Loading Checkpoints for faster initial sync...
 2018-May-13 11:58:40.854979 INFO    Loaded 1235695 checkpoints from checkpoints.csv
@@ -67,9 +66,6 @@ If you did the steps correctly, you should see something like this output.
 2,2ef060801dd27327533580cfa538849f9e1968d13418f2dd2535774a8c494bf4
 ```
 
-- If you absolutely can't get it working, you can make a new text file, copy all the content from here into it: https://github.com/derogold/checkpoints/raw/master/checkpoints.csv
-- Then save as checkpoints.csv (Select filetype: all files in windows)
-
 #### Failed to load checkpoints
 
 ```
@@ -97,7 +93,7 @@ operable program or batch file.
 - If you type `ls`, you should see the DeroGoldd program, if you are in the correct folder:
 
 ```
-[DeroGold-v0.1.1] ls
+[DeroGold-v0.7.1] ls
 cryptotest  DeroGoldd  DeroGold-service  Dockerfile  miner  morpheus.wallet  wallet-api  zedwallet  zedwallet-beta
 ```
 
