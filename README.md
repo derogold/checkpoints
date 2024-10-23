@@ -4,12 +4,11 @@
 
 ### Setup
 
-- Right click [this link](https://ipfs.io/ipfs/Qme8epCxomuZrgyJVqCbqRf5TgCbjkWUUpYca8EBCexHJz/checkpoints.csv) and choose `Save link as...` to download the latest checkpoints.csv file
+- Right click [this link](https://bootstrap.derogold.online/checkpoints.csv) and choose `Save link as...` to download the latest checkpoints.csv file
 - Place checkpoints.csv in the same folder as your DeroGoldd daemon
-- You can get DeroGoldd from here if you don't have it already: https://github.com/derogold/derogold/releases/latest
-- Make sure you shut down any GUI wallets, wallet-api endpoints, or any other instances of DeroGoldd you may run before daemon resync..
+- Make sure you shut down any GUI wallets, wallet-api endpoints, or any other instances of DeroGoldd you may be running before daemon resync..
 
-Alternatively, use the wget command from your Linux command line ```wget https://ipfs.io/ipfs/Qme8epCxomuZrgyJVqCbqRf5TgCbjkWUUpYca8EBCexHJz/checkpoints.csv``` to download the checkpoints.csv file.
+Alternatively, use the wget command from your Linux command line ```wget https://bootstrap.derogold.online/checkpoints.csv``` to download the checkpoints.csv file.
 
 ### Usage
 
